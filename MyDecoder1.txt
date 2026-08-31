@@ -1,0 +1,35 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 29.08.2026 22:09:17
+// Design Name: 
+// Module Name: MyDecoder1
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module MyDecoder1#(
+parameter WIDTH = 8,
+parameter OUTW = 2**WIDTH
+)(
+input [WIDTH-1:0] a,
+output reg [OUTW-1:0] q
+    );
+    
+     always @(*)begin
+     q = {OUTW{1'b0}};
+     q[a] = 1'b1;
+     end   
+endmodule

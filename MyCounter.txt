@@ -1,0 +1,35 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 31.08.2026 00:51:22
+// Design Name: 
+// Module Name: MyCounter
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module MyCounter(
+input clk,
+input reset,
+output reg [3:0]led
+    );
+    always @(posedge clk or posedge reset) begin
+    if (reset)
+         led <= 4'b0000;
+    else
+        led <= led + 1'b1;
+        
+    end
+endmodule

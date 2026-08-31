@@ -1,0 +1,35 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 30.08.2026 23:10:39
+// Design Name: 
+// Module Name: MyMux2to1
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+module MyMux2to1(
+input a,
+input b,
+input sel,
+output reg q
+    );
+   always @(*)begin
+    case (sel)
+    1'b0: q = a;
+    1'b1: q = b;
+    // default: q = 1'bx;
+    endcase
+   end
+endmodule
