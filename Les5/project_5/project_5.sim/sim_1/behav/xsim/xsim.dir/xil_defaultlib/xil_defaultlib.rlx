@@ -1,0 +1,7 @@
+0.7
+2020.2
+Jun 16 2026
+11:10:11
+D:/FPGA/D.Zavdanya/Les5/project_5/project_5.sim/sim_1/behav/xsim/glbl.v,1773749341,verilog,,,,glbl,,,,,,,,
+D:/FPGA/D.Zavdanya/Les5/project_5/project_5.srcs/sim_1/new/tb_counter.v,1789250117,verilog,,,,tb_counter,,,../../../../../../../2026.1/Vivado/data/rsb/busdef,,,,,
+D:/FPGA/D.Zavdanya/Les5/project_5/project_5.srcs/sources_1/new/counter.v,1789243226,verilog,,D:/FPGA/D.Zavdanya/Les5/project_5/project_5.srcs/sim_1/new/tb_counter.v,,counter,,,../../../../../../../2026.1/Vivado/data/rsb/busdef,,,,,

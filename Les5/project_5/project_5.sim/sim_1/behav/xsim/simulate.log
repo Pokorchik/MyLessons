@@ -1,0 +1,8 @@
+Time resolution is 1 ps
+PASS: load test, count = 10
+PASS: count up test (step 1), count = 13
+PASS: count up test (overflow), count = 0
+PASS: hold test (en=0), count = 0
+PASS: count down test (underflow), count = 15
+PASS: load priority over en, count = 5
+$finish called at time : 116 ns : File "D:/FPGA/D.Zavdanya/Les5/project_5/project_5.srcs/sim_1/new/tb_counter.v" Line 119

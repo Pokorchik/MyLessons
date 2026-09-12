@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/D.Zavdanya/Les5/project_5/project_5.srcs/sources_1/new/counter.v" into library work
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA/D.Zavdanya/Les5/project_5/project_5.srcs/sim_1/new/tb_counter.v" into library work
+INFO: [VRFC 10-311] analyzing module tb_counter
